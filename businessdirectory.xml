@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="5.0" method="upgrade">
+	<name>COM_BUSINESSDIRECTORY</name>
+	<creationDate>3rd April, 2025</creationDate>
+	<author>Tom van der Laan</author>
+	<authorEmail>info@tlwebdesign.nl</authorEmail>
+	<authorUrl>https://tlwebdesign.nl</authorUrl>
+	<copyright>Copyright (C) 2025. All Rights Reserved</copyright>
+	<license>GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<version>1.0.2</version>
+	<description><![CDATA[
+		<h1>Business Directory (v.1.0.2)</h1>
+		<div style="clear: both;"></div>
+		<p></p>
+		<p>Created by <a href="https://tlwebdesign.nl" target="_blank">Tom van der Laan</a><br /><small>Development started 1st April, 2025</small></p>
+	]]></description>
+	<namespace path="src">JCB\Component\Businessdirectory</namespace>
+
+	<!-- Runs on install -->
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+		</sql>
+	</install>
+
+	<!-- Runs on uninstall -->
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+		</sql>
+	</uninstall>
+
+	<!-- Runs on install/uninstall/update -->
+	<scriptfile>BusinessdirectoryInstallerScript.php</scriptfile>
+
+	<media destination="com_businessdirectory" folder="media">
+		<filename>index.html</filename>
+		<folder>js</folder>
+		<folder>css</folder>
+		<folder>images</folder>
+	</media>
+
+	<!-- Update Schema -->
+	<update>
+		<schemas>
+			<schemapath type="mysql">sql/updates/mysql/</schemapath>
+		</schemas>
+	</update>
+
+	<files folder="site">
+		<filename>index.html</filename>
+		<folder>assets</folder>
+		<folder>forms</folder>
+		<folder>layouts</folder>
+		<folder>src</folder>
+		<folder>tmpl</folder>
+	</files>
+
+	<languages folder="site">
+		<language tag="en-GB">language/en-GB/en-GB.com_businessdirectory.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.com_businessdirectory.sys.ini</language>
+	</languages>
+
+	<administration>
+		<menu>COM_BUSINESSDIRECTORY_MENU</menu>
+		<submenu>
+			<!-- Instead of link you can specify individual link attributes -->
+			<menu option="com_businessdirectory" view="businessdirectory">COM_BUSINESSDIRECTORY_MENU_DASHBOARD</menu>
+			<menu option="com_businessdirectory" view="companies">COM_BUSINESSDIRECTORY_MENU_COMPANIES</menu>
+			<menu option="com_businessdirectory" view="countries">COM_BUSINESSDIRECTORY_MENU_COUNTRIES</menu>
+			<menu option="com_businessdirectory" view="states">COM_BUSINESSDIRECTORY_MENU_STATES</menu>
+		</submenu>
+		<files folder="admin">
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<filename>index.html</filename>
+			<folder>assets</folder>
+			<folder>forms</folder>
+			<folder>layouts</folder>
+			<folder>presets</folder>
+			<folder>services</folder>
+			<folder>sql</folder>
+			<folder>src</folder>
+			<folder>tmpl</folder>
+		</files>
+
+		<languages folder="admin">
+			<language tag="en-GB">language/en-GB/en-GB.com_businessdirectory.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.com_businessdirectory.sys.ini</language>
+		</languages>
+
+	</administration>
+</extension>

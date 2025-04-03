@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<access component="com_businessdirectory">
+	<section name="component">
+		<action name="core.admin" title="JACTION_ADMIN" description="JACTION_ADMIN_COMPONENT_DESC" />
+		<action name="core.options" title="JACTION_OPTIONS" description="JACTION_OPTIONS_COMPONENT_DESC" />
+		<action name="core.manage" title="JACTION_MANAGE" description="JACTION_MANAGE_COMPONENT_DESC" />
+		<action name="core.batch" title="COM_BUSINESSDIRECTORY_USE_BATCH" description="COM_BUSINESSDIRECTORY_USE_BATCH_DESC" />
+		<action name="core.version" title="COM_BUSINESSDIRECTORY_EDIT_VERSIONS" description="COM_BUSINESSDIRECTORY_EDIT_VERSIONS_DESC" />
+		<action name="core.create" title="JACTION_CREATE" description="JACTION_CREATE_COMPONENT_DESC" />
+		<action name="core.delete" title="JACTION_DELETE" description="JACTION_DELETE_COMPONENT_DESC" />
+		<action name="core.edit" title="JACTION_EDIT" description="JACTION_EDIT_COMPONENT_DESC" />
+		<action name="core.edit.state" title="JACTION_EDITSTATE" description="JACTION_ACCESS_EDITSTATE_DESC" />
+		<action name="core.edit.own" title="JACTION_EDITOWN" description="JACTION_EDITOWN_COMPONENT_DESC" />
+		<action name="core.edit.created_by" title="COM_BUSINESSDIRECTORY_EDIT_CREATED_BY" description="COM_BUSINESSDIRECTORY_EDIT_CREATED_BY_DESC" />
+		<action name="core.edit.created" title="COM_BUSINESSDIRECTORY_EDIT_CREATED_DATE" description="COM_BUSINESSDIRECTORY_EDIT_CREATED_DATE_DESC" />
+		<action name="company.access" title="COM_BUSINESSDIRECTORY_COMPANIES_ACCESS" description="COM_BUSINESSDIRECTORY_COMPANIES_ACCESS_DESC" />
+		<action name="company.batch" title="COM_BUSINESSDIRECTORY_COMPANIES_BATCH_USE" description="COM_BUSINESSDIRECTORY_COMPANIES_BATCH_USE_DESC" />
+		<action name="company.dashboard_add" title="COM_BUSINESSDIRECTORY_COMPANIES_DASHBOARD_ADD" description="COM_BUSINESSDIRECTORY_COMPANIES_DASHBOARD_ADD_DESC" />
+		<action name="company.dashboard_list" title="COM_BUSINESSDIRECTORY_COMPANIES_DASHBOARD_LIST" description="COM_BUSINESSDIRECTORY_COMPANIES_DASHBOARD_LIST_DESC" />
+		<action name="company.version" title="COM_BUSINESSDIRECTORY_COMPANIES_EDIT_VERSION" description="COM_BUSINESSDIRECTORY_COMPANIES_EDIT_VERSION_DESC" />
+		<action name="country.access" title="COM_BUSINESSDIRECTORY_COUNTRIES_ACCESS" description="COM_BUSINESSDIRECTORY_COUNTRIES_ACCESS_DESC" />
+		<action name="country.access.name" title="COM_BUSINESSDIRECTORY_COUNTRIES_ACCESS_NAME" description="COM_BUSINESSDIRECTORY_COUNTRIES_ACCESS_NAME_DESC" />
+		<action name="country.batch" title="COM_BUSINESSDIRECTORY_COUNTRIES_BATCH_USE" description="COM_BUSINESSDIRECTORY_COUNTRIES_BATCH_USE_DESC" />
+		<action name="country.create" title="COM_BUSINESSDIRECTORY_COUNTRIES_CREATE" description="COM_BUSINESSDIRECTORY_COUNTRIES_CREATE_DESC" />
+		<action name="country.dashboard_list" title="COM_BUSINESSDIRECTORY_COUNTRIES_DASHBOARD_LIST" description="COM_BUSINESSDIRECTORY_COUNTRIES_DASHBOARD_LIST_DESC" />
+		<action name="country.delete" title="COM_BUSINESSDIRECTORY_COUNTRIES_DELETE" description="COM_BUSINESSDIRECTORY_COUNTRIES_DELETE_DESC" />
+		<action name="country.edit" title="COM_BUSINESSDIRECTORY_COUNTRIES_EDIT" description="COM_BUSINESSDIRECTORY_COUNTRIES_EDIT_DESC" />
+		<action name="country.edit.name" title="COM_BUSINESSDIRECTORY_COUNTRIES_EDIT_NAME" description="COM_BUSINESSDIRECTORY_COUNTRIES_EDIT_NAME_DESC" />
+		<action name="country.edit.own" title="COM_BUSINESSDIRECTORY_COUNTRIES_EDIT_OWN" description="COM_BUSINESSDIRECTORY_COUNTRIES_EDIT_OWN_DESC" />
+		<action name="country.edit.state" title="COM_BUSINESSDIRECTORY_COUNTRIES_EDIT_STATE" description="COM_BUSINESSDIRECTORY_COUNTRIES_EDIT_STATE_DESC" />
+		<action name="country.edit.states" title="COM_BUSINESSDIRECTORY_COUNTRIES_EDIT_STATES" description="COM_BUSINESSDIRECTORY_COUNTRIES_EDIT_STATES_DESC" />
+		<action name="country.version" title="COM_BUSINESSDIRECTORY_COUNTRIES_EDIT_VERSION" description="COM_BUSINESSDIRECTORY_COUNTRIES_EDIT_VERSION_DESC" />
+		<action name="country.view.name" title="COM_BUSINESSDIRECTORY_COUNTRIES_VIEW_NAME" description="COM_BUSINESSDIRECTORY_COUNTRIES_VIEW_NAME_DESC" />
+		<action name="state.access" title="COM_BUSINESSDIRECTORY_STATES_ACCESS" description="COM_BUSINESSDIRECTORY_STATES_ACCESS_DESC" />
+		<action name="state.access.name" title="COM_BUSINESSDIRECTORY_STATES_ACCESS_NAME" description="COM_BUSINESSDIRECTORY_STATES_ACCESS_NAME_DESC" />
+		<action name="state.batch" title="COM_BUSINESSDIRECTORY_STATES_BATCH_USE" description="COM_BUSINESSDIRECTORY_STATES_BATCH_USE_DESC" />
+		<action name="state.create" title="COM_BUSINESSDIRECTORY_STATES_CREATE" description="COM_BUSINESSDIRECTORY_STATES_CREATE_DESC" />
+		<action name="state.dashboard_list" title="COM_BUSINESSDIRECTORY_STATES_DASHBOARD_LIST" description="COM_BUSINESSDIRECTORY_STATES_DASHBOARD_LIST_DESC" />
+		<action name="state.delete" title="COM_BUSINESSDIRECTORY_STATES_DELETE" description="COM_BUSINESSDIRECTORY_STATES_DELETE_DESC" />
+		<action name="state.edit" title="COM_BUSINESSDIRECTORY_STATES_EDIT" description="COM_BUSINESSDIRECTORY_STATES_EDIT_DESC" />
+		<action name="state.edit.country" title="COM_BUSINESSDIRECTORY_STATES_EDIT_COUNTRY" description="COM_BUSINESSDIRECTORY_STATES_EDIT_COUNTRY_DESC" />
+		<action name="state.edit.created_by" title="COM_BUSINESSDIRECTORY_STATES_EDIT_CREATED_BY" description="COM_BUSINESSDIRECTORY_STATES_EDIT_CREATED_BY_DESC" />
+		<action name="state.edit.created" title="COM_BUSINESSDIRECTORY_STATES_EDIT_CREATED_DATE" description="COM_BUSINESSDIRECTORY_STATES_EDIT_CREATED_DATE_DESC" />
+		<action name="state.edit.name" title="COM_BUSINESSDIRECTORY_STATES_EDIT_NAME" description="COM_BUSINESSDIRECTORY_STATES_EDIT_NAME_DESC" />
+		<action name="state.edit.own" title="COM_BUSINESSDIRECTORY_STATES_EDIT_OWN" description="COM_BUSINESSDIRECTORY_STATES_EDIT_OWN_DESC" />
+		<action name="state.edit.state" title="COM_BUSINESSDIRECTORY_STATES_EDIT_STATE" description="COM_BUSINESSDIRECTORY_STATES_EDIT_STATE_DESC" />
+		<action name="state.version" title="COM_BUSINESSDIRECTORY_STATES_EDIT_VERSION" description="COM_BUSINESSDIRECTORY_STATES_EDIT_VERSION_DESC" />
+		<action name="state.view.name" title="COM_BUSINESSDIRECTORY_STATES_VIEW_NAME" description="COM_BUSINESSDIRECTORY_STATES_VIEW_NAME_DESC" />
+	</section>
+	<section name="company">
+		<action name="company.version" title="COM_BUSINESSDIRECTORY_COMPANIES_EDIT_VERSION" description="COM_BUSINESSDIRECTORY_COMPANIES_EDIT_VERSION_DESC" />
+	</section>
+	<section name="country">
+		<action name="country.edit" title="COM_BUSINESSDIRECTORY_COUNTRIES_EDIT" description="COM_BUSINESSDIRECTORY_COUNTRIES_EDIT_DESC" />
+		<action name="country.edit.own" title="COM_BUSINESSDIRECTORY_COUNTRIES_EDIT_OWN" description="COM_BUSINESSDIRECTORY_COUNTRIES_EDIT_OWN_DESC" />
+		<action name="country.edit.state" title="COM_BUSINESSDIRECTORY_COUNTRIES_EDIT_STATE" description="COM_BUSINESSDIRECTORY_COUNTRIES_EDIT_STATE_DESC" />
+		<action name="country.create" title="COM_BUSINESSDIRECTORY_COUNTRIES_CREATE" description="COM_BUSINESSDIRECTORY_COUNTRIES_CREATE_DESC" />
+		<action name="country.delete" title="COM_BUSINESSDIRECTORY_COUNTRIES_DELETE" description="COM_BUSINESSDIRECTORY_COUNTRIES_DELETE_DESC" />
+		<action name="country.access" title="COM_BUSINESSDIRECTORY_COUNTRIES_ACCESS" description="COM_BUSINESSDIRECTORY_COUNTRIES_ACCESS_DESC" />
+		<action name="country.edit.name" title="COM_BUSINESSDIRECTORY_COUNTRIES_EDIT_NAME" description="COM_BUSINESSDIRECTORY_COUNTRIES_EDIT_NAME_DESC" />
+		<action name="country.access.name" title="COM_BUSINESSDIRECTORY_COUNTRIES_ACCESS_NAME" description="COM_BUSINESSDIRECTORY_COUNTRIES_ACCESS_NAME_DESC" />
+		<action name="country.view.name" title="COM_BUSINESSDIRECTORY_COUNTRIES_VIEW_NAME" description="COM_BUSINESSDIRECTORY_COUNTRIES_VIEW_NAME_DESC" />
+		<action name="country.edit.states" title="COM_BUSINESSDIRECTORY_COUNTRIES_EDIT_STATES" description="COM_BUSINESSDIRECTORY_COUNTRIES_EDIT_STATES_DESC" />
+		<action name="country.version" title="COM_BUSINESSDIRECTORY_COUNTRIES_EDIT_VERSION" description="COM_BUSINESSDIRECTORY_COUNTRIES_EDIT_VERSION_DESC" />
+	</section>
+	<section name="state">
+		<action name="state.edit" title="COM_BUSINESSDIRECTORY_STATES_EDIT" description="COM_BUSINESSDIRECTORY_STATES_EDIT_DESC" />
+		<action name="state.edit.own" title="COM_BUSINESSDIRECTORY_STATES_EDIT_OWN" description="COM_BUSINESSDIRECTORY_STATES_EDIT_OWN_DESC" />
+		<action name="state.edit.state" title="COM_BUSINESSDIRECTORY_STATES_EDIT_STATE" description="COM_BUSINESSDIRECTORY_STATES_EDIT_STATE_DESC" />
+		<action name="state.edit.created_by" title="COM_BUSINESSDIRECTORY_STATES_EDIT_CREATED_BY" description="COM_BUSINESSDIRECTORY_STATES_EDIT_CREATED_BY_DESC" />
+		<action name="state.edit.created" title="COM_BUSINESSDIRECTORY_STATES_EDIT_CREATED_DATE" description="COM_BUSINESSDIRECTORY_STATES_EDIT_CREATED_DATE_DESC" />
+		<action name="state.create" title="COM_BUSINESSDIRECTORY_STATES_CREATE" description="COM_BUSINESSDIRECTORY_STATES_CREATE_DESC" />
+		<action name="state.delete" title="COM_BUSINESSDIRECTORY_STATES_DELETE" description="COM_BUSINESSDIRECTORY_STATES_DELETE_DESC" />
+		<action name="state.access" title="COM_BUSINESSDIRECTORY_STATES_ACCESS" description="COM_BUSINESSDIRECTORY_STATES_ACCESS_DESC" />
+		<action name="state.edit.name" title="COM_BUSINESSDIRECTORY_STATES_EDIT_NAME" description="COM_BUSINESSDIRECTORY_STATES_EDIT_NAME_DESC" />
+		<action name="state.access.name" title="COM_BUSINESSDIRECTORY_STATES_ACCESS_NAME" description="COM_BUSINESSDIRECTORY_STATES_ACCESS_NAME_DESC" />
+		<action name="state.view.name" title="COM_BUSINESSDIRECTORY_STATES_VIEW_NAME" description="COM_BUSINESSDIRECTORY_STATES_VIEW_NAME_DESC" />
+		<action name="state.edit.country" title="COM_BUSINESSDIRECTORY_STATES_EDIT_COUNTRY" description="COM_BUSINESSDIRECTORY_STATES_EDIT_COUNTRY_DESC" />
+		<action name="state.version" title="COM_BUSINESSDIRECTORY_STATES_EDIT_VERSION" description="COM_BUSINESSDIRECTORY_STATES_EDIT_VERSION_DESC" />
+	</section>
+</access>
